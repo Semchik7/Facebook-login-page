@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  }
+  
+  main {
+    padding: 150px 0;
+    background-color: #edf0f5;
+  }
+  
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .column-left {
+    margin: 0px;
+    margin-top: 70px;
+    padding-top: 0px;
+  }
+  
+  .column-right {
+    margin: auto;
+    padding: 15px;
+  }
+  
+  img {
+    width: 300px;
+    height: 150px;
+    margin: -35px;
+    padding: -20px;
+  }
+
+  p {
+    font-size: 28px;
+    margin: -5px;
+  }
+
+  .form {
+    width: 380px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(201, 197, 197);
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .form input {
+    display: block;
+    width: 330px;
+    height: 22px;
+    font-size: 17px;
+    border-radius: 6px;
+    margin: 10px;
+    border: 1px solid #dddfe2;
+    padding: 15px;
+  }
+
+  .form input:focus {
+    border: 3px solid #421ee4;
+  }
+
+  #p {
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 12px;
+    text-align: center;
+    background-color: white;
+    color: #0059ff;
+    border: white;
+    font-size: 14px;
+  }
+
+  #p:hover {
+    text-decoration: underline;
+  }
+
+  .href {
+    margin-left: 292px;
+    margin-top: -15px;
+    text-align: right;
+    text-decoration: none;
+    width: 630px;
+    height: 22px;
+    padding: 25px;
+    font-weight: 600px;
+    font-size: 14px;
+  }
+
+  #div {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  
+  .form button {
+    display: block;
+    margin: auto;
+  }
+  
+  #blue {
+    background-color: #1174f7;
+    color: white;
+    font-weight: bold;
+    width: 365px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid;
+  }
+
+  #green {
+    background-color: rgb(17, 202, 17);
+    color: white;
+    border-radius: 8px;
+    border: 1px solid;
+    width: 300px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    padding: 20px 0;
+    margin-top: 5px;
+    margin-left: 300px;
+    margin-right: 350px;
+    text-decoration: none;
+  }
+
+  #plus {
+    color: black;
+    font-weight: bold;
+  } 
+
+  .footer {
+    text-decoration: none;
+    margin: 10px;
+    word-spacing: 5px;
+  }
+
+  .hr {
+    margin-left: 10px;
+    border-bottom: 1px solid gainsboro;
+  }
+
+  #er {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(156, 153, 153);
+  }
+
+  #er:hover {
+    text-decoration: underline;
+  }
+  
+  #meta {
+    font-size: 11px;
+    color: rgb(156, 153, 153);
+    margin-left: 10px;
+    margin-top: 25px;
+  }
+
+  @media (max-width: 375px) {
+    main {
+      padding: 40px 0;
+    }
+  
+    .columns {
+      display: block;
+    }
+  }
